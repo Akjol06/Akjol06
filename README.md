@@ -22,7 +22,7 @@
 </a>
 
 <a href="https://www.tiktok.com/@akjol006?_t=8kQAHut3Nnr&_r=1">
-  <img src="https://github.com/Akjol06/Akjol06/assets/161818422/60b433f0-e1b0-41c6-8596-587e5ca34558" width="100">
+  <img src="https://github.com/Akjol06/Akjol06/assets/161818422/60b433f0-e1b0-41c6-8596-587e5ca34558" width="50">
 </a>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
