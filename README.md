@@ -21,7 +21,7 @@
   <img src="https://user-images.githubusercontent.com/74038190/235294006-04e22871-2943-4626-9a99-e1d416cbda26.gif" width="100">
 </a>
 
-<a href="https://www.tiktok.com/@akjol006?_t=8kQAHut3Nnr&_r=1">
+<a href="https://t.me/kanaev006">
   <img src="https://github.com/Akjol06/Akjol06/assets/161818422/11f6df23-79cc-4560-9e20-1ffa74ee50a4" width="100">
 </a>
 
