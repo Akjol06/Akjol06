@@ -9,4 +9,4 @@
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu&perline=10)](https://skillicons.dev)
 
 ## Social Media:
-<a href=" https://www.discord.com/channels/akjol7437">   <img height="50" src=" https://giphy.com/gifs/demon-slayer-tanjiro-TdoiN7rZuGDJPs2rAS "/> </a>
+<img height="50" src=" https://giphy.com/gifs/demon-slayer-tanjiro-TdoiN7rZuGDJPs2rAS "/>
