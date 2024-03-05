@@ -9,5 +9,4 @@
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu&perline=10)](https://skillicons.dev)
 
 ## Social Media:
-<a href=" https://www.discord.com/channels/akjol7437">   <img height="50" src="![discord_icon](https://github.com/Akjol06/Akjol06/assets/161818422/8bc8c87d-dc2c-48d0-807b-016d76d40b5d)
- "/> </a>
+<a href=" https://www.discord.com/channels/akjol7437">   <img height="50" src=" https://github.com/Akjol06/Akjol06/assets/161818422/e898b725-a54f-4e6f-8fb5-c78cb50fdfcf "/> </a>
