@@ -21,5 +21,8 @@
   <img src="https://user-images.githubusercontent.com/74038190/235294006-04e22871-2943-4626-9a99-e1d416cbda26.gif" width="100">
 </a>
 
+<a href="https://www.tiktok.com/@akjol006?_t=8kQAHut3Nnr&_r=1">
+  <img src="https://github.com/Akjol06/Akjol06/assets/161818422/205b9f74-0384-4f9f-9bf7-4da63999be21" width="100">
+</a>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
