@@ -9,4 +9,4 @@
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu&perline=10)](https://skillicons.dev)
 
 ## Social Media:
-<img height="50" src=" https://giphy.com/gifs/demon-slayer-tanjiro-TdoiN7rZuGDJPs2rAS "/>
+<img src=" https://giphy.com/gifs/demon-slayer-tanjiro-TdoiN7rZuGDJPs2rAS "/>
