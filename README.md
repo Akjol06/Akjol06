@@ -22,7 +22,7 @@
 </a>
 
 <a href="https://www.tiktok.com/@akjol006?_t=8kQAHut3Nnr&_r=1">
-  <img src="https://d1jj76g3lut4fe.cloudfront.net/processed/thumb/4oIeu1J2qAX4I9F3ag.mp4?Expires=1709723500&Signature=dxqaKYgsVyqpzQVh8rY7wh96EviN9L3L1KDMpCaOWQQ98qiwNPyTT1lV3tdprnW~3RNB6KmPflB9wnOjVtgesD0CU8k2kf2dXAJ3JGwu0AJTU3oEPtdEOWvJ2Mf47UTF3ERtNSOuw97nIYWlO2kuFMD8FMcJu3bItlZjOk7044lJTvz0EDI6iNbascqnIOqj~7PoH1UJnw2rFG1uLYA7gW9yOk~mavoLbaIUGHO7ykD-TU84UGIQvl8sM7V9ivD4OLGB7~KMXiDO7WAscfyh0nTtz4LLOb3ZE2x8sazPLhWSedTqRubNHcccCDsQjqVFvQXhjb6DcaVIbm-OpCgfoA__&Key-Pair-Id=K2YEDJLVZ3XRI#t=0.001" width="100">
+  <img src="https://github.com/Akjol06/Akjol06/assets/161818422/11f6df23-79cc-4560-9e20-1ffa74ee50a4" width="100">
 </a>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
