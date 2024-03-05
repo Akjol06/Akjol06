@@ -18,4 +18,4 @@
 <a href="https://www.tiktok.com/@akjol006?_t=8kQAHut3Nnr&_r=1">
   <img src="https://user-images.githubusercontent.com/74038190/235294006-04e22871-2943-4626-9a99-e1d416cbda26.gif" width="100">
 </a>
-  
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="500">
