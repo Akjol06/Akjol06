@@ -1,4 +1,5 @@
-<h1>Hello! My name is Akjol <a href="https://i.pinimg.com/564x/1b/06/c2/1b06c2c3490292229e268c17c3937a2a.jpg"><img src="https://i.pinimg.com/564x/1b/06/c2/1b06c2c3490292229e268c17c3937a2a.jpg" width="100"></a></h1>
+<h1>Hello! My name is Akjol 
+  <a href="https://i.pinimg.com/564x/1b/06/c2/1b06c2c3490292229e268c17c3937a2a.jpg"><img src="https://i.pinimg.com/564x/1b/06/c2/1b06c2c3490292229e268c17c3937a2a.jpg" width="50"></a></h1>
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="600" alt="animated hello">
 
 ## My Skills:
