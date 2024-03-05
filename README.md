@@ -4,7 +4,7 @@
 
 ## My Skills:
 [![My Skills](https://skillicons.dev/icons?i=php,mysql,symfony,git,docker,postman&perline=10)](https://skillicons.dev)
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3dkbnFkYmhzNjQ0cTU1aXE3eno5ZWZsZWkwcWZxbWF5NjkxeWZ1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TdoiN7rZuGDJPs2rAS/giphy.gif" width="700">
+
 
 ## Code Editor:
 [![My Skills](https://skillicons.dev/icons?i=vscode&perline=10)](https://skillicons.dev)
