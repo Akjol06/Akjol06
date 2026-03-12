@@ -3,11 +3,11 @@
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/9be4d344-6782-461a-b5a6-32a07bf7b34e" width="600" alt="animated hello">
 
 ## My Skills:
-[![My Skills](https://skillicons.dev/icons?i=php,mysql,symfony,git,docker,postman&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=php,mysql,symfony,git,docker,postman,py,fastapi,figma&perline=10)](https://skillicons.dev)
 
 
 ## Code Editor:
-[![My Skills](https://skillicons.dev/icons?i=vscode&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,phpstorm,pycharm,webstorm&perline=10)](https://skillicons.dev)
 
 ## Operating System:
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu&perline=10)](https://skillicons.dev)
