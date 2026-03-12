@@ -10,7 +10,7 @@
 [![My Skills](https://skillicons.dev/icons?i=vscode,phpstorm,pycharm,webstorm&perline=10)](https://skillicons.dev)
 
 ## Operating System:
-[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,apple&perline=10)](https://skillicons.dev)
 
 ## Social Media:
 <a href="https://www.discord.com/channels/akjol7437/"> 
