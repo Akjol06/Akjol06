@@ -64,14 +64,21 @@ I'm a full-stack engineer who ships **production software end-to-end** — from 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Akjol06&show_icons=true&hide_border=true&icon_color=5B45EE&title_color=5B45EE&text_color=555&bg_color=ffffff&count_private=true"
-alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akjol06&layout=compact&hide_border=true&langs_count=8&title_color=5B45EE&text_color=555&bg_color=ffffff" alt="top
-langs"/>
+<img width="60%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Akjol06&theme=github_dark" alt="profile summary"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Akjol06&hide_border=trrrStreakLabel=5B45EE" alt="streak"/>
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Akjol06&theme=github_dark" alt="stats"/>
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akjol06&theme=github_dark" alt="top languages"/>
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Akjol06&theme=github_dark&utcOffset=6" alt="productive time"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=Akjol06&theme=tokyonight&hide_border=true&ring=5B45EE&fire=5B45EE&currStreakLabel=5B45EE" alt="streak"/>
+
+<br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Akjol06&theme=tokyo-night&hide_border=true&area=true&color=5B45EE&line=5B45EE&point=ffffff" alt="activity graph"/>
 
 </div>
 
