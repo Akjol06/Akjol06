@@ -1,3 +1,21 @@
+<h1 align="center">Hi, I'm Akjol 👋</h1>
+
+<h3 align="center">Full-Stack Engineer · AI Agents · FastAPI + React</h3>
+
+<p align="center">
+  I ship production software end-to-end — from database schema and async APIs<br/>
+  to polished React UIs and live deployment.
+</p>
+
+<p align="center">
+  <a href="https://aivo.kg"><img src="https://img.shields.io/badge/Live_Project-aivo.kg-5B45EE?style=for-the-badge&logo=rocket&logoColor=white" alt="aivo.kg"/></a>
+  <a href="https://t.me/kanaev006"><img src="https://img.shields.io/badge/Telegram-@kanaev006-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+  <img src="https://img.shields.io/badge/Open_to-Freelance_&_Product_work-2ea44f?style=for-the-badge" alt="Available"/>
+  <img src="https://komarev.com/ghpvc/?username=Akjol06&style=for-the-badge&color=5B45EE&label=Profile+views" alt="views"/>
+</p>
+
+---
+
 ## 🚀 About me
 
 I'm a full-stack engineer who ships **production software end-to-end** — from database schema and async APIs to polished React UIs and live deployment. Over the last year I designed and built **[Aivo](https://aivo.kg)**, a multi-tenant AI-agent platform, on my own: backend, frontend, embeddable widget, infrastructure and integrations.
@@ -46,13 +64,14 @@ I'm a full-stack engineer who ships **production software end-to-end** — from 
 
 <div align="center">
 
-<img height="165"
-src="https://github-readme-stats.vercel.app/api?username=Akjol06&show_icon_color=5B45EE&icon_color=5B45EE&text_color=555&bg_color=ffffff" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langmpact&hide_border=true&title_color=5B45EE&text_color=555&bg_color=ffffff"alt="top langs" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Akjol06&show_icons=true&hide_border=true&icon_color=5B45EE&title_color=5B45EE&text_color=555&bg_color=ffffff&count_private=true"
+alt="stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akjol06&layout=compact&hide_border=true&langs_count=8&title_color=5B45EE&text_color=555&bg_color=ffffff" alt="top
+langs"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Akjol06&hide_border=true&ring=5B45EE&fire=5B45EE&currStreakLabel=5B45EE" alt="streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Akjol06&hide_border=trrrStreakLabel=5B45EE" alt="streak"/>
 
 </div>
 
@@ -63,13 +82,13 @@ src="https://github-readme-stats.vercel.app/api?username=Akjol06&show_icon_color
 <div align="center">
 
 <a href="https://t.me/kanaev006">
-  <img src="https://img.shields.io/badge/Telegram-@kanaev006-26A5E4?style=ogoColor=white" alt="telegram"/>
+  <img src="https://img.shields.io/badge/Telegram-@kanaev006-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram"/>
 </a>
 <a href="mailto:aivo.company.info@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/>
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=mail"/>
 </a>
 <a href="https://aivo.kg">
-  <img src="https://img.shields.io/badge/Website-aivo.kg-5B45EE?style=for-ogoColor=white" alt="website"/>
+  <img src="https://img.shields.io/badge/Website-aivo.kg-5B45EE?style=for-the-badge&logo=googlechrome&logoColor=white" alt="website"/>
 </a>
 
 <br/><br/>
