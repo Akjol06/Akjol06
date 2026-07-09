@@ -74,7 +74,7 @@ I'm a full-stack engineer who ships **production software end-to-end** — from 
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=Akjol06&theme=tokyonight&hide_border=true&ring=5B45EE&fire=5B45EE&currStreakLabel=5B45EE" alt="streak"/>
+<img src="https://streak-stats.demolab.com/?user=Akjol06&theme=tokyonight&hide_border=true" alt="streak"/>
 
 <br/>
 
