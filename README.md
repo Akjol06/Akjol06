@@ -1,134 +1,68 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-dark.svg" alt="Akjol Kanaev — full-stack engineer, Bishkek" width="100%">
-</picture>
-
 <div align="center">
-<br/>
 
-**[Telegram](https://t.me/kanaev006)** &nbsp;·&nbsp;
-**[Email](mailto:aivo.company.info@gmail.com)** &nbsp;·&nbsp;
-**[aivo.kg](https://aivo.kg)** &nbsp;·&nbsp;
-<sub>OPEN FOR FREELANCE &amp; PRODUCT WORK</sub>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=180&section=header&text=AKJOL%20KANAEV&fontSize=56&fontColor=FFFFFF&fontAlignY=44&desc=FULL-STACK%20ENGINEER%20%C2%B7%20BISHKEK%20%C2%B7%20UTC%2B6&descSize=15&descAlignY=63&animation=fadeIn" width="100%" alt="Akjol Kanaev — full-stack engineer, Bishkek"/>
+
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=20&pause=1000&duration=3200&color=E6EDF3&center=true&vCenter=true&width=780&height=46&lines=I+build+backends+that+hold+up+under+load;interfaces+people+don%27t+fight+with;AI+agents+that+talk+to+real+customers;things+that+survive+production" alt="I build backends that hold up under load, interfaces people don't fight with, AI agents that talk to real customers, things that survive production"/>
+
+<a href="https://t.me/kanaev006"><img src="https://img.shields.io/badge/TELEGRAM-%40kanaev006-161B22?style=flat-square&labelColor=0D1117&logo=telegram&logoColor=E6EDF3" alt="Telegram"/></a>
+<a href="mailto:aivo.company.info@gmail.com"><img src="https://img.shields.io/badge/EMAIL-write%20to%20me-161B22?style=flat-square&labelColor=0D1117&logo=gmail&logoColor=E6EDF3" alt="Email"/></a>
+<a href="https://aivo.kg"><img src="https://img.shields.io/badge/WEB-aivo.kg-161B22?style=flat-square&labelColor=0D1117&logo=googlechrome&logoColor=E6EDF3" alt="aivo.kg"/></a>
+<img src="https://img.shields.io/badge/OPEN%20FOR-FREELANCE%20%26%20PRODUCT%20WORK-E6EDF3?style=flat-square&labelColor=0D1117" alt="Open for freelance and product work"/>
 
 </div>
 
-<img src="./assets/rule.svg" width="100%" alt="">
-
-<sub>01 &nbsp;—&nbsp; THE SHORT VERSION</sub>
-
-## Who you're hiring
+---
 
 **One engineer, whole product.** Data model, async API, the UI people click, the
-server it runs on, and the pager when it breaks at 3 a.m.
+server it runs on, and the pager when it breaks. Most of my work is commercial
+products for the Kyrgyz market — e-commerce, services, SaaS — plus a year of
+building AI agents that hold real conversations with real customers in Russian,
+Kyrgyz and English.
 
-Most of my work is commercial products for the Kyrgyz market — e-commerce,
-services, SaaS — plus a year of building AI agents that hold real conversations
-with real customers, in Russian, Kyrgyz and English, without a human on the other end.
+I work solo or in very small teams, which means I make architecture calls and then
+live with them. Good fit if you have a product and no technical co-founder, or a
+codebase that works right up until it doesn't.
 
-I work solo or in very small teams. That means I make architecture calls and then
-live with them, which is a very effective way to stop making bad ones.
+### Selected work
 
-> **Good fit if:** you have a product and no technical co-founder — or a codebase
-> that works right up until it doesn't. Both are my normal Tuesday.
+| | Project | What it is | Built with |
+|:--|:--|:--|:--|
+| `01` | **[Aivo](https://aivo.kg)** | Multi-tenant SaaS where businesses build no-code AI agents and plug them into Telegram, WhatsApp, Instagram and their site. Built solo — backend, frontend, embeddable widget, infra. | FastAPI · async SQLAlchemy 2 · React 19 · Postgres + pgvector · Redis · ARQ |
+| `02` | **EMIN.KG** | Store for electronics and security systems. Rebuilt the SPA as server-rendered pages when organic search became the growth channel. | Next.js · FastAPI · PostgreSQL |
+| `03` | **Soft Skin** | Premium skincare storefront — catalogue, cart, checkout, admin. | Next.js · FastAPI · PostgreSQL |
 
-<img src="./assets/rule.svg" width="100%" alt="">
+### How I work
 
-<sub>02 &nbsp;—&nbsp; SELECTED</sub>
+`BORING WHERE IT COUNTS` — idempotency keys, tenant isolation enforced in one layer instead of remembered in fifty, transactions that either all happen or don't.
 
-## Work
+`SLOW THINGS GO TO A WORKER` — if an operation can outlast a user's patience it doesn't belong in the request. Queue it, return instantly, tell them when it's done.
 
-| Project | What it is | Built with |
-|:--|:--|:--|
-| **[Aivo](https://aivo.kg)** <sub>SaaS</sub> | Multi-tenant platform where businesses build no-code AI agents and plug them into Telegram, WhatsApp, Instagram and their site. Built solo — backend, frontend, widget, infra. | FastAPI · React 19 · Postgres + pgvector · Redis |
-| **EMIN.KG** <sub>e-commerce</sub> | Online store for electronics and security systems. Migrated the original SPA to server-rendered pages when organic search became the growth channel. | Next.js · FastAPI · PostgreSQL |
-| **Soft Skin** <sub>commerce</sub> | Premium skincare storefront — catalogue, cart, checkout, admin. | Next.js · FastAPI · PostgreSQL |
+`THE FRONTEND IS NOT DECORATION` — loading, empty, error, keyboard, mobile. The 20% nobody demos is the 80% people feel.
 
-<sub>Pinned repositories below are the ones worth your time.</sub>
+`I FINISH` — deployed, monitored, documented, handed over. A branch that "basically works" isn't work.
 
-<img src="./assets/rule.svg" width="100%" alt="">
+### Stack
 
-<sub>03 &nbsp;—&nbsp; PRINCIPLES</sub>
+<div align="center">
 
-## How I work
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=backend&width=470&showBorder=true&borderRadius=14&fontSize=16&fontWeight=bold&titleAlign=left&align=left&gap=8&lineHeight=8&bg=%230D1117&border=%2321262D&badge=%23161B22&titleColor=%23E6EDF3&lineCount=2&line1=python,python,ffffff;fastapi,fastapi,ffffff;sqlalchemy,sqlalchemy,ffffff&line2=php,php,ffffff;symfony,symfony,ffffff;poetry,uv,ffffff" width="49%" alt="Backend: Python, FastAPI, SQLAlchemy, PHP, Symfony, uv"/>
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=frontend&width=470&showBorder=true&borderRadius=14&fontSize=16&fontWeight=bold&titleAlign=left&align=left&gap=8&lineHeight=8&bg=%230D1117&border=%2321262D&badge=%23161B22&titleColor=%23E6EDF3&lineCount=2&line1=typescript,typescript,ffffff;react,react,ffffff;nextdotjs,next.js,ffffff&line2=vite,vite,ffffff;tailwindcss,tailwind,ffffff;reactquery,tanstack,ffffff" width="49%" alt="Frontend: TypeScript, React, Next.js, Vite, Tailwind, TanStack Query"/>
 
-**Boring where it counts.** Money, auth and tenant boundaries get the unglamorous
-treatment: idempotency keys, isolation enforced in one layer instead of remembered
-in fifty, transactions that either all happen or don't.
-
-**Slow things go to a worker.** If an operation can outlast a user's patience, it
-doesn't belong in the request. Queue it, return instantly, tell them when it's done.
-
-**The frontend is not decoration.** Loading, empty, error, keyboard, mobile.
-The 20% nobody demos is the 80% people feel.
-
-**I finish.** Deployed, monitored, documented, handed over. A branch that "basically
-works" isn't work.
-
-<img src="./assets/rule.svg" width="100%" alt="">
-
-<sub>04 &nbsp;—&nbsp; TOOLBOX</sub>
-
-## Stack
-
-<table>
-<tr><td><b>Backend</b></td><td>
-
-<kbd>&nbsp;Python 3.13&nbsp;</kbd> <kbd>&nbsp;FastAPI&nbsp;</kbd> <kbd>&nbsp;SQLAlchemy 2 async&nbsp;</kbd> <kbd>&nbsp;Alembic&nbsp;</kbd> <kbd>&nbsp;ARQ&nbsp;</kbd> <kbd>&nbsp;PHP / Symfony&nbsp;</kbd>
-
-</td></tr>
-<tr><td><b>Frontend</b></td><td>
-
-<kbd>&nbsp;TypeScript&nbsp;</kbd> <kbd>&nbsp;React 19&nbsp;</kbd> <kbd>&nbsp;Next.js&nbsp;</kbd> <kbd>&nbsp;Vite&nbsp;</kbd> <kbd>&nbsp;Tailwind v4&nbsp;</kbd> <kbd>&nbsp;TanStack Query&nbsp;</kbd> <kbd>&nbsp;Zustand&nbsp;</kbd>
-
-</td></tr>
-<tr><td><b>Data</b></td><td>
-
-<kbd>&nbsp;PostgreSQL&nbsp;</kbd> <kbd>&nbsp;pgvector&nbsp;</kbd> <kbd>&nbsp;Redis&nbsp;</kbd> <kbd>&nbsp;MySQL&nbsp;</kbd>
-
-</td></tr>
-<tr><td><b>AI</b></td><td>
-
-<kbd>&nbsp;OpenAI&nbsp;</kbd> <kbd>&nbsp;Claude&nbsp;</kbd> <kbd>&nbsp;Gemini&nbsp;</kbd> <kbd>&nbsp;RAG&nbsp;</kbd> <kbd>&nbsp;hybrid search&nbsp;</kbd>
-
-</td></tr>
-<tr><td><b>Infra</b></td><td>
-
-<kbd>&nbsp;Docker&nbsp;</kbd> <kbd>&nbsp;Nginx&nbsp;</kbd> <kbd>&nbsp;Linux&nbsp;</kbd> <kbd>&nbsp;Cloudflare&nbsp;</kbd> <kbd>&nbsp;Git&nbsp;</kbd> <kbd>&nbsp;CI&nbsp;</kbd>
-
-</td></tr>
-</table>
-
-<img src="./assets/rule.svg" width="100%" alt="">
-
-<sub>05 &nbsp;—&nbsp; CURRENTLY</sub>
-
-## Now
-
-- Growing **Aivo** — new channels, better retrieval, fewer 3 a.m. surprises.
-- Taking **freelance and product work**. Fixed scope or ongoing, both fine.
-- Reading other people's production code, which is how you actually get better.
-
-<img src="./assets/rule.svg" width="100%" alt="">
-
-<div align="right">
-
-### Let's talk
-
-<sub>Have a product idea, or a codebase that needs an owner?</sub>
-
-**[t.me/kanaev006](https://t.me/kanaev006)** &nbsp;&nbsp;·&nbsp;&nbsp; **[aivo.company.info@gmail.com](mailto:aivo.company.info@gmail.com)**
-
-<sub>Usually replies the same day &nbsp;·&nbsp; RU / KY / EN</sub>
-
-<br/>
-
-<details>
-<summary><sub>stats, if you're into that</sub></summary>
-<br/>
-<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Akjol06&theme=github_dark" alt="stats"/>
-<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akjol06&theme=github_dark" alt="languages"/>
-</details>
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=data%20%26%20ai&width=470&showBorder=true&borderRadius=14&fontSize=16&fontWeight=bold&titleAlign=left&align=left&gap=8&lineHeight=8&bg=%230D1117&border=%2321262D&badge=%23161B22&titleColor=%23E6EDF3&lineCount=2&line1=postgresql,postgresql,ffffff;redis,redis,ffffff;mysql,mysql,ffffff&line2=openai,openai,ffffff;anthropic,claude,ffffff;googlegemini,gemini,ffffff" width="49%" alt="Data and AI: PostgreSQL, Redis, MySQL, OpenAI, Claude, Gemini"/>
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=infra&width=470&showBorder=true&borderRadius=14&fontSize=16&fontWeight=bold&titleAlign=left&align=left&gap=8&lineHeight=8&bg=%230D1117&border=%2321262D&badge=%23161B22&titleColor=%23E6EDF3&lineCount=2&line1=docker,docker,ffffff;nginx,nginx,ffffff;linux,linux,ffffff&line2=cloudflare,cloudflare,ffffff;git,git,ffffff;githubactions,ci,ffffff" width="49%" alt="Infra: Docker, Nginx, Linux, Cloudflare, Git, CI"/>
 
 </div>
+
+### Activity
+
+<div align="center">
+
+<img src="https://github-widgetbox.vercel.app/api/profile?username=Akjol06&data=followers,repositories,stars,commits&theme=darkmode" width="98%" alt="Akjol06 — followers, repositories, stars and commits"/>
+
+<img src="https://streak-stats.demolab.com?user=Akjol06&background=0D1117&border=21262D&stroke=21262D&ring=E6EDF3&fire=E6EDF3&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E6EDF3&sideLabels=8B949E&dates=6E7681&excludeDaysLabel=6E7681" width="58%" alt="Contribution streak"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akjol06&custom_title=COMMITS&bg_color=0D1117&color=FFFFFF&title_color=E6EDF3&line=E6EDF3&point=FFFFFF&area=true&area_color=21262D&hide_border=false&border_color=21262D&radius=14" width="98%" alt="Commit activity over the last year"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=150&section=footer&text=LET%27S%20TALK&fontSize=38&fontColor=FFFFFF&fontAlignY=60&desc=t.me%2Fkanaev006%20%C2%B7%20aivo.company.info%40gmail.com&descSize=14&descAlignY=80" width="100%" alt="Let's talk — t.me/kanaev006"/>
