@@ -1,196 +1,144 @@
 <div align="center">
+<br/>
 
-<h1><samp>A&nbsp;K&nbsp;J&nbsp;O&nbsp;L&nbsp;&nbsp;&nbsp;K&nbsp;A&nbsp;N&nbsp;A&nbsp;E&nbsp;V</samp></h1>
+## Akjol Kanaev
 
-<p><samp>full-stack engineer &nbsp;·&nbsp; i build AI agents that answer real customers</samp></p>
+<sub>FULL-STACK ENGINEER &nbsp;—&nbsp; BISHKEK, KYRGYZSTAN &nbsp;—&nbsp; UTC+6</sub>
 
-<p>
-<a href="https://aivo.kg"><samp>aivo.kg</samp></a> &nbsp;·&nbsp;
-<a href="https://t.me/kanaev006"><samp>telegram</samp></a> &nbsp;·&nbsp;
-<a href="mailto:aivo.company.info@gmail.com"><samp>email</samp></a>
-</p>
+<br/>
 
+I take products from an empty database to a domain<br/>
+people actually type into a browser.
+
+<br/>
+
+<kbd>&nbsp;Python&nbsp;</kbd> <kbd>&nbsp;FastAPI&nbsp;</kbd> <kbd>&nbsp;TypeScript&nbsp;</kbd> <kbd>&nbsp;React&nbsp;</kbd> <kbd>&nbsp;Next.js&nbsp;</kbd> <kbd>&nbsp;PostgreSQL&nbsp;</kbd> <kbd>&nbsp;Docker&nbsp;</kbd>
+
+<br/>
+
+<a href="https://t.me/kanaev006"><b>Telegram</b></a> &nbsp;·&nbsp;
+<a href="mailto:aivo.company.info@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
+<a href="https://aivo.kg"><b>aivo.kg</b></a>
+
+<br/>
 </div>
 
-```console
-akjol@bishkek:~$ whoami
-────────────────────────────────────────────────────────────────────
-role       full-stack engineer — schema, API, UI, deploy. all of it.
-building   aivo.kg · multi-tenant AI-agent platform · solo, 1 year
-stack      Python 3.13 · FastAPI · React 19 · Postgres · Redis
-timezone   UTC+6 · Bishkek, KG · replies same day
-status     open — freelance & product work
-```
+---
 
-## <samp>01 &nbsp;· &nbsp;what I actually do</samp>
+<sub>01 &nbsp;—&nbsp; THE SHORT VERSION</sub>
 
-I don't hand off half a system. I take a product from an empty database to a
-domain someone can type into a browser — and then I keep it running.
+## Who you're hiring
 
-```
-▸  AI agents          LLM + RAG that hold a real conversation, capture the
-                      order, and write it where the business already looks.
+I'm a full-stack engineer. Not "full-stack" as in *I can also center a div* — I own
+the whole line: data model, async API, the UI people click, the server it runs on,
+and the pager when it breaks.
 
-▸  Clean backends     domain-driven, strict tenant isolation, idempotent money,
-                      heavy work pushed off the request path.
+Most of my work is commercial products for the Kyrgyz market — e-commerce,
+services, SaaS — plus a year of building AI agents that hold real conversations
+with real customers. I work alone or in very small teams, which means I'm used to
+making architecture calls and living with them.
 
-▸  UI that behaves    real-time chat, responsive layouts, motion that means
-                      something instead of decorating.
-
-▸  Ownership          first commit to production incident. No "that's frontend's
-                      problem."
-```
-
-## <samp>02 &nbsp;· &nbsp;aivo — system map</samp>
-
-> A SaaS where a company builds a no-code AI agent, connects it to their
-> channels, and lets it handle conversations, orders and data sync — 24/7.
-
-```
- ┌─ CHANNELS ─────────┐   ┌─ CORE ──────────────────────┐   ┌─ DATA ──────────────┐
- │                    │   │                             │   │                     │
- │  Telegram          │   │   FastAPI (async ASGI)      │   │  PostgreSQL         │
- │  WhatsApp          │──▶│   ↓                         │──▶│  + pgvector         │
- │  Instagram         │   │   agent runtime             │   │  + tsvector / trgm  │
- │  Web widget        │   │   ↓                         │   │                     │
- │  (Shadow DOM)      │◀──│   tool calls · RAG · memory │◀──│  Redis · ARQ queue  │
- │                    │   │                             │   │                     │
- └────────────────────┘   └──────────────┬──────────────┘   └─────────────────────┘
-                                         │
-                          ┌──────────────┴──────────────┐
-                          │  Sheets · Calendar · OAuth  │
-                          │  Bitrix24 · amoCRM · billing│
-                          └─────────────────────────────┘
-
- models   OpenAI · Claude · Gemini · Groq · DeepSeek   (swappable per tenant)
- infra    Docker · Nginx · Cloudflare · VPS · CI dependency audits
- live     https://aivo.kg
-```
-
-## <samp>03 &nbsp;· &nbsp;decisions I'd defend in review</samp>
-
-<details>
-<summary><samp><b>Why hybrid retrieval instead of pure vector search</b></samp></summary>
+**What I'm good for:** you have a product idea and no technical co-founder, or a
+codebase that works right up until it doesn't. Both are my normal Tuesday.
 
 <br/>
 
-Pure embeddings quietly fail on the two things our users type most: three-word
-queries and product codes. So retrieval runs three ways in parallel — dense
-vectors (pgvector), full-text, and trigram fuzzy — and merges them with
-**Reciprocal Rank Fusion**.
+<sub>02 &nbsp;—&nbsp; SELECTED</sub>
 
-RRF needs no score normalisation between wildly different scales, and it degrades
-gracefully: if one channel returns garbage, the other two still rank the right
-chunk first. Typos and mixed ru/ky/en text stopped being a support ticket.
+## Work
 
+| Project | What it is | Built with |
+|:--|:--|:--|
+| **[Aivo](https://aivo.kg)** <sub>SaaS</sub> | Multi-tenant platform where businesses build no-code AI agents and plug them into Telegram, WhatsApp, Instagram and their site. Built solo — backend, frontend, widget, infra. | FastAPI · React 19 · Postgres + pgvector · Redis |
+| **EMIN.KG** <sub>e-commerce</sub> | Online store for electronics and security systems. Migrated the original SPA to server-rendered pages when organic search became the growth channel. | Next.js · FastAPI · PostgreSQL |
+| **Soft Skin** <sub>commerce</sub> | Premium skincare storefront — catalogue, cart, checkout, admin. | Next.js · FastAPI · PostgreSQL |
+
+<sub>More in the repositories below — pinned ones are the ones worth your time.</sub>
+
+<br/>
+
+<sub>03 &nbsp;—&nbsp; PRINCIPLES</sub>
+
+## How I work
+
+**Boring where it counts.** Money, auth and tenant boundaries get the unglamorous
+treatment: idempotency keys, isolation enforced in one layer instead of remembered
+in fifty, transactions that either all happen or don't.
+
+**Slow things go to a worker.** If an operation can outlast a user's patience, it
+doesn't belong in the request. Queue it, return instantly, tell them when it's done.
+
+**The frontend is not decoration.** Loading states, empty states, error states,
+keyboard, mobile. The 20% nobody demos is the 80% people feel.
+
+**I finish.** Deployed, monitored, documented, handed over. A branch that "basically
+works" isn't work.
+
+<br/>
+
+<sub>04 &nbsp;—&nbsp; TOOLBOX</sub>
+
+## Stack
+
+<table>
+<tr><td><b>Backend</b></td><td>
+
+<kbd>&nbsp;Python 3.13&nbsp;</kbd> <kbd>&nbsp;FastAPI&nbsp;</kbd> <kbd>&nbsp;SQLAlchemy 2 async&nbsp;</kbd> <kbd>&nbsp;Alembic&nbsp;</kbd> <kbd>&nbsp;ARQ&nbsp;</kbd> <kbd>&nbsp;PHP / Symfony&nbsp;</kbd>
+
+</td></tr>
+<tr><td><b>Frontend</b></td><td>
+
+<kbd>&nbsp;TypeScript&nbsp;</kbd> <kbd>&nbsp;React 19&nbsp;</kbd> <kbd>&nbsp;Next.js&nbsp;</kbd> <kbd>&nbsp;Vite&nbsp;</kbd> <kbd>&nbsp;Tailwind v4&nbsp;</kbd> <kbd>&nbsp;TanStack Query&nbsp;</kbd> <kbd>&nbsp;Zustand&nbsp;</kbd>
+
+</td></tr>
+<tr><td><b>Data</b></td><td>
+
+<kbd>&nbsp;PostgreSQL&nbsp;</kbd> <kbd>&nbsp;pgvector&nbsp;</kbd> <kbd>&nbsp;Redis&nbsp;</kbd> <kbd>&nbsp;MySQL&nbsp;</kbd>
+
+</td></tr>
+<tr><td><b>AI</b></td><td>
+
+<kbd>&nbsp;OpenAI&nbsp;</kbd> <kbd>&nbsp;Claude&nbsp;</kbd> <kbd>&nbsp;Gemini&nbsp;</kbd> <kbd>&nbsp;RAG&nbsp;</kbd> <kbd>&nbsp;hybrid search&nbsp;</kbd>
+
+</td></tr>
+<tr><td><b>Infra</b></td><td>
+
+<kbd>&nbsp;Docker&nbsp;</kbd> <kbd>&nbsp;Nginx&nbsp;</kbd> <kbd>&nbsp;Linux&nbsp;</kbd> <kbd>&nbsp;Cloudflare&nbsp;</kbd> <kbd>&nbsp;Git&nbsp;</kbd> <kbd>&nbsp;CI&nbsp;</kbd>
+
+</td></tr>
+</table>
+
+<br/>
+
+<sub>05 &nbsp;—&nbsp; CURRENTLY</sub>
+
+## Now
+
+- Growing **Aivo** — new channels, better retrieval, fewer 3 a.m. surprises.
+- Taking **freelance and product work**. Fixed scope or ongoing, both fine.
+- Reading other people's production code, which is how you actually get better.
+
+<br/>
+
+---
+
+<div align="right">
+
+### Let's talk
+
+<sub>Have a product idea, or a codebase that needs an owner?</sub>
+
+**[t.me/kanaev006](https://t.me/kanaev006)** &nbsp;&nbsp;·&nbsp;&nbsp; **[aivo.company.info@gmail.com](mailto:aivo.company.info@gmail.com)**
+
+<sub>Usually replies the same day &nbsp;·&nbsp; RU / KY / EN</sub>
+
+<br/>
+
+<details>
+<summary><sub>stats, if you're into that</sub></summary>
+<br/>
+<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Akjol06&theme=github_dark" alt="stats"/>
+<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akjol06&theme=github_dark" alt="languages"/>
 </details>
-
-<details>
-<summary><samp><b>Multi-tenant isolation that doesn't rely on remembering</b></samp></summary>
-
-<br/>
-
-Every tenant's data lives in shared tables, which means one forgotten `WHERE`
-is a data breach. So the tenant scope isn't a convention — it's enforced at the
-repository layer. No query object leaves the data layer without a tenant bound
-to it, and there is no "raw session" escape hatch in application code.
-
-Cheaper than per-tenant schemas, and it survives a new developer on day one.
-
-</details>
-
-<details>
-<summary><samp><b>Billing you can safely retry</b></samp></summary>
-
-<br/>
-
-Payment providers retry webhooks. Networks time out mid-confirm. Users double-tap.
-So every billing transition is keyed by an idempotency key and written in one
-transaction with the subscription state — replaying the same webhook ten times
-produces exactly one charge and one activation.
-
-The rule: money operations are pure functions of their key, never of arrival order.
-
-</details>
-
-<details>
-<summary><samp><b>The widget lives in a Shadow DOM</b></samp></summary>
-
-<br/>
-
-The chat widget gets embedded on sites I will never see — Bitrix templates,
-WordPress themes, a 2014 hand-rolled CSS file. Shadow DOM means their global
-`* { box-sizing }` and their `z-index: 999999` header can't reach in, and my
-styles can't leak out and break their checkout.
-
-One `<script>` tag, no iframe scroll-height gymnastics, no CSS reset war.
-
-</details>
-
-<details>
-<summary><samp><b>Anything slow goes to a worker</b></samp></summary>
-
-<br/>
-
-Document ingestion, embedding, re-indexing and CRM sync never run inside an HTTP
-request. They go to ARQ on Redis, so a 40-page PDF upload returns instantly and
-one heavy tenant can't starve the API for everyone else.
-
-Rule of thumb: if it can take longer than a user's patience, it doesn't belong
-in the request path.
-
-</details>
-
-## <samp>04 &nbsp;· &nbsp;stack</samp>
-
-| | |
-|:--|:--|
-| `language` | Python 3.13 · TypeScript · PHP |
-| `backend`&nbsp;&nbsp; | FastAPI · async SQLAlchemy 2 · Alembic · ARQ · Symfony |
-| `frontend` | React 19 · Vite · Tailwind v4 · TanStack Query · Zustand · Framer Motion |
-| `data` | PostgreSQL · pgvector · Redis · MySQL |
-| `ai` | OpenAI · Claude · Gemini · Groq · DeepSeek · RAG · RRF |
-| `infra` | Docker · Nginx · Cloudflare · Linux · VPS · Git |
-| `tools` | Vite · Figma · Postman · PyCharm · WebStorm · VS Code |
-
-## <samp>05 &nbsp;· &nbsp;get in touch</samp>
-
-I'm good to work with on things that need to actually ship: an AI agent for your
-sales flow, a backend that stops falling over, or a product from zero.
-
-```console
-akjol@bishkek:~$ contact --all
-────────────────────────────────────────────────────────────────────
-telegram   t.me/kanaev006
-email      aivo.company.info@gmail.com
-web        aivo.kg
-open to    freelance · product work · contract
-```
-
-<p>
-<a href="https://t.me/kanaev006"><img src="https://img.shields.io/badge/telegram-@kanaev006-0d1117?style=flat-square&labelColor=0d1117&color=5B45EE" alt="telegram"/></a>
-<a href="mailto:aivo.company.info@gmail.com"><img src="https://img.shields.io/badge/email-say_hi-0d1117?style=flat-square&labelColor=0d1117&color=5B45EE" alt="email"/></a>
-<a href="https://aivo.kg"><img src="https://img.shields.io/badge/live-aivo.kg-0d1117?style=flat-square&labelColor=0d1117&color=5B45EE" alt="aivo.kg"/></a>
-</p>
-
-<br/>
-
-<details>
-<summary><samp>the obligatory GitHub cards</samp></summary>
-
-<br/>
-
-<div align="center">
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Akjol06&theme=github_dark" alt="stats"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akjol06&theme=github_dark" alt="top languages"/>
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Akjol06&theme=github-compact&hide_border=true&area=true&color=5B45EE&line=5B45EE&point=ffffff&bg_color=0d1117" alt="activity graph"/>
 
 </div>
-
-</details>
-
-<br/>
-
-<samp><sub>built things > listed things</sub></samp>
